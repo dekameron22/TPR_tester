@@ -21,6 +21,12 @@
 		BF0C9EA01948652500B00DA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0C9E821948652500B00DA5 /* UIKit.framework */; };
 		BF0C9EA81948652500B00DA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF0C9EA61948652500B00DA5 /* InfoPlist.strings */; };
 		BF0C9EAA1948652500B00DA5 /* TPR_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0C9EA91948652500B00DA5 /* TPR_TesterTests.m */; };
+		BFA71115194EF0EB00DA3782 /* ATTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA71114194EF0EB00DA3782 /* ATTestViewController.m */; };
+		BFA71118194EFAC700DA3782 /* ATRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA71117194EFAC700DA3782 /* ATRegistrationViewController.m */; };
+		BFA7111D194F083E00DA3782 /* ATMainTestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7111C194F083E00DA3782 /* ATMainTestsViewController.m */; };
+		BFA71120194F10C800DA3782 /* placaholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA7111F194F10C800DA3782 /* placaholder.png */; };
+		BFB9E48C195045BC005E6520 /* ATMainQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E48B195045BC005E6520 /* ATMainQuestionTableViewCell.m */; };
+		BFB9E48F195045CC005E6520 /* ATAnswersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E48E195045CC005E6520 /* ATAnswersTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,17 @@
 		BF0C9EA51948652500B00DA5 /* TPR_TesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TPR_TesterTests-Info.plist"; sourceTree = "<group>"; };
 		BF0C9EA71948652500B00DA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF0C9EA91948652500B00DA5 /* TPR_TesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPR_TesterTests.m; sourceTree = "<group>"; };
+		BFA71113194EF0EB00DA3782 /* ATTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTestViewController.h; sourceTree = "<group>"; };
+		BFA71114194EF0EB00DA3782 /* ATTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTestViewController.m; sourceTree = "<group>"; };
+		BFA71116194EFAC700DA3782 /* ATRegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRegistrationViewController.h; sourceTree = "<group>"; };
+		BFA71117194EFAC700DA3782 /* ATRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRegistrationViewController.m; sourceTree = "<group>"; };
+		BFA7111B194F083E00DA3782 /* ATMainTestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMainTestsViewController.h; sourceTree = "<group>"; };
+		BFA7111C194F083E00DA3782 /* ATMainTestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMainTestsViewController.m; sourceTree = "<group>"; };
+		BFA7111F194F10C800DA3782 /* placaholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placaholder.png; sourceTree = "<group>"; };
+		BFB9E48A195045BC005E6520 /* ATMainQuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMainQuestionTableViewCell.h; sourceTree = "<group>"; };
+		BFB9E48B195045BC005E6520 /* ATMainQuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMainQuestionTableViewCell.m; sourceTree = "<group>"; };
+		BFB9E48D195045CC005E6520 /* ATAnswersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAnswersTableViewCell.h; sourceTree = "<group>"; };
+		BFB9E48E195045CC005E6520 /* ATAnswersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATAnswersTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +129,21 @@
 		BF0C9E841948652500B00DA5 /* TPR_Tester */ = {
 			isa = PBXGroup;
 			children = (
+				BFB9E4891950459A005E6520 /* questionCells */,
+				BFA7111E194F10BB00DA3782 /* images */,
 				BF0C9E8D1948652500B00DA5 /* ATAppDelegate.h */,
 				BF0C9E8E1948652500B00DA5 /* ATAppDelegate.m */,
 				BF0C9E901948652500B00DA5 /* Main.storyboard */,
 				BF0C9E931948652500B00DA5 /* ATViewController.h */,
 				BF0C9E941948652500B00DA5 /* ATViewController.m */,
+				BFA71113194EF0EB00DA3782 /* ATTestViewController.h */,
+				BFA71114194EF0EB00DA3782 /* ATTestViewController.m */,
+				BFA71116194EFAC700DA3782 /* ATRegistrationViewController.h */,
+				BFA71117194EFAC700DA3782 /* ATRegistrationViewController.m */,
 				BF0C9E961948652500B00DA5 /* Images.xcassets */,
 				BF0C9E851948652500B00DA5 /* Supporting Files */,
+				BFA7111B194F083E00DA3782 /* ATMainTestsViewController.h */,
+				BFA7111C194F083E00DA3782 /* ATMainTestsViewController.m */,
 			);
 			path = TPR_Tester;
 			sourceTree = "<group>";
@@ -150,6 +175,25 @@
 				BF0C9EA61948652500B00DA5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA7111E194F10BB00DA3782 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BFA7111F194F10C800DA3782 /* placaholder.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BFB9E4891950459A005E6520 /* questionCells */ = {
+			isa = PBXGroup;
+			children = (
+				BFB9E48A195045BC005E6520 /* ATMainQuestionTableViewCell.h */,
+				BFB9E48B195045BC005E6520 /* ATMainQuestionTableViewCell.m */,
+				BFB9E48D195045CC005E6520 /* ATAnswersTableViewCell.h */,
+				BFB9E48E195045CC005E6520 /* ATAnswersTableViewCell.m */,
+			);
+			name = questionCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0C9E971948652500B00DA5 /* Images.xcassets in Resources */,
+				BFA71120194F10C800DA3782 /* placaholder.png in Resources */,
 				BF0C9E891948652500B00DA5 /* InfoPlist.strings in Resources */,
 				BF0C9E921948652500B00DA5 /* Main.storyboard in Resources */,
 			);
@@ -251,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0C9E8B1948652500B00DA5 /* main.m in Sources */,
+				BFA71115194EF0EB00DA3782 /* ATTestViewController.m in Sources */,
+				BFB9E48C195045BC005E6520 /* ATMainQuestionTableViewCell.m in Sources */,
+				BFA71118194EFAC700DA3782 /* ATRegistrationViewController.m in Sources */,
 				BF0C9E951948652500B00DA5 /* ATViewController.m in Sources */,
+				BFA7111D194F083E00DA3782 /* ATMainTestsViewController.m in Sources */,
+				BFB9E48F195045CC005E6520 /* ATAnswersTableViewCell.m in Sources */,
 				BF0C9E8F1948652500B00DA5 /* ATAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +431,7 @@
 				GCC_PREFIX_HEADER = "TPR_Tester/TPR_Tester-Prefix.pch";
 				INFOPLIST_FILE = "TPR_Tester/TPR_Tester-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,6 +445,7 @@
 				GCC_PREFIX_HEADER = "TPR_Tester/TPR_Tester-Prefix.pch";
 				INFOPLIST_FILE = "TPR_Tester/TPR_Tester-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +509,7 @@
 				BF0C9EAF1948652500B00DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF0C9EB01948652500B00DA5 /* Build configuration list for PBXNativeTarget "TPR_TesterTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +518,7 @@
 				BF0C9EB21948652500B00DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
