@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8696DCDC7244725A93AB5B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F66A948185465DA1B39C16 /* libPods.a */; };
 		BF0C9E7F1948652500B00DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0C9E7E1948652500B00DA5 /* Foundation.framework */; };
 		BF0C9E811948652500B00DA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0C9E801948652500B00DA5 /* CoreGraphics.framework */; };
 		BF0C9E831948652500B00DA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0C9E821948652500B00DA5 /* UIKit.framework */; };
@@ -24,7 +25,6 @@
 		BFA71115194EF0EB00DA3782 /* ATTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA71114194EF0EB00DA3782 /* ATTestViewController.m */; };
 		BFA71118194EFAC700DA3782 /* ATRegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA71117194EFAC700DA3782 /* ATRegistrationViewController.m */; };
 		BFA7111D194F083E00DA3782 /* ATMainTestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7111C194F083E00DA3782 /* ATMainTestsViewController.m */; };
-		BFA71120194F10C800DA3782 /* placaholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BFA7111F194F10C800DA3782 /* placaholder.png */; };
 		BFB9E48C195045BC005E6520 /* ATMainQuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E48B195045BC005E6520 /* ATMainQuestionTableViewCell.m */; };
 		BFB9E48F195045CC005E6520 /* ATAnswersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E48E195045CC005E6520 /* ATAnswersTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -40,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21F66A948185465DA1B39C16 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		565E569248E7418F802F023F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BF0C9E7B1948652500B00DA5 /* TPR_Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPR_Tester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0C9E7E1948652500B00DA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF0C9E801948652500B00DA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +67,6 @@
 		BFA71117194EFAC700DA3782 /* ATRegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRegistrationViewController.m; sourceTree = "<group>"; };
 		BFA7111B194F083E00DA3782 /* ATMainTestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMainTestsViewController.h; sourceTree = "<group>"; };
 		BFA7111C194F083E00DA3782 /* ATMainTestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMainTestsViewController.m; sourceTree = "<group>"; };
-		BFA7111F194F10C800DA3782 /* placaholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placaholder.png; sourceTree = "<group>"; };
 		BFB9E48A195045BC005E6520 /* ATMainQuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMainQuestionTableViewCell.h; sourceTree = "<group>"; };
 		BFB9E48B195045BC005E6520 /* ATMainQuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMainQuestionTableViewCell.m; sourceTree = "<group>"; };
 		BFB9E48D195045CC005E6520 /* ATAnswersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATAnswersTableViewCell.h; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 				BF0C9E811948652500B00DA5 /* CoreGraphics.framework in Frameworks */,
 				BF0C9E831948652500B00DA5 /* UIKit.framework in Frameworks */,
 				BF0C9E7F1948652500B00DA5 /* Foundation.framework in Frameworks */,
+				A8696DCDC7244725A93AB5B0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +105,7 @@
 				BF0C9EA31948652500B00DA5 /* TPR_TesterTests */,
 				BF0C9E7D1948652500B00DA5 /* Frameworks */,
 				BF0C9E7C1948652500B00DA5 /* Products */,
+				565E569248E7418F802F023F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +125,7 @@
 				BF0C9E801948652500B00DA5 /* CoreGraphics.framework */,
 				BF0C9E821948652500B00DA5 /* UIKit.framework */,
 				BF0C9E9D1948652500B00DA5 /* XCTest.framework */,
+				21F66A948185465DA1B39C16 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,7 +184,6 @@
 		BFA7111E194F10BB00DA3782 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				BFA7111F194F10C800DA3782 /* placaholder.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -203,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0C9EAD1948652500B00DA5 /* Build configuration list for PBXNativeTarget "TPR_Tester" */;
 			buildPhases = (
+				421893BB58864808BBEEC888 /* Check Pods Manifest.lock */,
 				BF0C9E771948652500B00DA5 /* Sources */,
 				BF0C9E781948652500B00DA5 /* Frameworks */,
 				BF0C9E791948652500B00DA5 /* Resources */,
+				9CD3AAA5843643D8AB170CF4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,7 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0C9E971948652500B00DA5 /* Images.xcassets in Resources */,
-				BFA71120194F10C800DA3782 /* placaholder.png in Resources */,
 				BF0C9E891948652500B00DA5 /* InfoPlist.strings in Resources */,
 				BF0C9E921948652500B00DA5 /* Main.storyboard in Resources */,
 			);
@@ -289,6 +293,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		421893BB58864808BBEEC888 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD3AAA5843643D8AB170CF4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF0C9E771948652500B00DA5 /* Sources */ = {
@@ -424,6 +461,7 @@
 		};
 		BF0C9EAE1948652500B00DA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565E569248E7418F802F023F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +476,7 @@
 		};
 		BF0C9EAF1948652500B00DA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565E569248E7418F802F023F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

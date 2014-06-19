@@ -126,10 +126,6 @@
                                     <segue destination="gCR-ey-h0f" kind="push" identifier="toBeginTest" id="MuR-5X-ZYH"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placaholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="yfr-Oa-fiq">
-                                <rect key="frame" x="0.0" y="120" width="320" height="259"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -364,9 +360,6 @@
             <point key="canvasLocation" x="726" y="769"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="placaholder.png" width="604" height="573"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
